@@ -1,0 +1,138 @@
+body{
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 1px
+}
+
+#wrapper{
+    width: 90%;
+    margin: 20px auto;
+    max-width: 960px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px solid gray;
+}
+
+header{
+    display: block;
+}
+
+header div{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background:#9400D3;
+}
+
+header h2{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+}
+
+#add-mentee{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#button-wrapper{
+    text-align: center;
+}
+#add-mentee button{
+    border-radius: 5px;
+    background:#9400D3;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.8em;
+    cursor: pointer;    
+}
+
+#add-mentee-details{
+    width: 100%;
+    margin-top: 20px;
+}
+
+#inputform {
+    width: 85%;
+    margin: 2% auto;
+    padding: 2%;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-row-gap: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#inputform input[type="text"]{
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+#inputform label{
+    padding: 1%;
+    padding: 1%
+}
+
+#submitform,#resetform {
+    width:50%;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: #9400D3;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#display-list{
+    display: block;
+}
+
+#display-list h3{
+    text-align: center;
+    background: #9400D3;
+    padding: 10px;
+    color: white;
+}
+
+#display-list ul{
+    list-style-type: none;
+    padding:0;
+}
+
+#display-list ul li{
+    border-left: 5px solid #ddd;
+    padding: 20px;
+    margin: 20px 10px;
+    cursor: pointer;   
+}
+
+#display-list ul li:hover{
+    border-left: 5px solid #9400D3;
+}
+
+
+
+.delete{
+    float: right;
+    background: #9400D3;
+    color: white;
+    border-radius: 2px;
+    padding: 3px;
+    font-weight: 600;
+}
+
+.name{
+    padding: 5px; 
+    font-weight: 600;
+    color: #444;
+}
+

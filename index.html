@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mentees-List</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo|Ubuntu|Arial">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <div>
+                    <h2 class="title">Mentees-List</h2>
+                </div>
+            </header>
+            <div id="add-mentee">
+                <div id="button-wrapper">
+                    <button>Add Mentee Details</button>
+                </div>
+                <div id="add-mentee-details">
+                    <form name="details" id="inputform">
+                        <label >Name :</label> <input type="text" id="inputname" class="input">
+                        <label>Roll Number :</label> <input type="text" id="rno" class="input">
+                        <label>Department :</label> <input type="text" id="dep" class="input">
+                        <label>Rating :</label> <div><input type="radio" name="1" class="input"><input type="radio" name="2" class="input"><input type="radio" name="3" class="input"><input type="radio" name="4" class="input"><input type="radio" name="5" class="input"></div>
+                        <label>Comments :</label> <input type="text" id="comments" class="input">
+                        <input type="submit" label="Submission" id="submitform">
+                        <input type="reset" label="Reset" id="resetform">
+                    </form>
+                </div>
+            </div>    
+            <div id="display-list">
+                <h3>List of Mentees</h3>
+                <ul>
+                    <li>
+                       <span class="name">Sudharshan</span>
+                        <span class="rollno">11</span>
+                        <span class="delete">Delete</span>
+                    </li>
+                </ul>
+            </div>
+            <!--<div id="filters">
+                <input type="button" value="Sort" id="sort">
+            </div>-->
+        </div>
+    </body>
+</html>
