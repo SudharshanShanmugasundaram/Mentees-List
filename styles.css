@@ -106,23 +106,44 @@ header h2{
 #display-list ul{
     list-style-type: none;
     padding:0;
+    max-height: 200px;
+    overflow-y: scroll;
 }
 
 #display-list ul li{
     border-left: 5px solid #ddd;
     padding: 20px;
     margin: 20px 10px;
-    cursor: pointer;   
+    cursor: pointer;
+    display: block;
 }
 
 #display-list ul li:hover{
     border-left: 5px solid #9400D3;
 }
 
+#display-list ul li > div{
+    display: inline-block;
+}
+.name{
+    width: 60%;
+    padding: 5px; 
+    font-weight: 600;
+    color: #444;
+}
 
+.rollno{
+    padding: 5px;
+    text-align: center;
+    width: 20%;
+    font-weight: bold;
+    color: #444;
+}
 
 .delete{
-    float: right;
+    margin: 0 auto;
+    text-align: center;
+    width: 10%;
     background: #9400D3;
     color: white;
     border-radius: 2px;
@@ -130,9 +151,17 @@ header h2{
     font-weight: 600;
 }
 
-.name{
-    padding: 5px; 
-    font-weight: 600;
+.hidden{
+    width: 96%;
+    text-align: center; 
     color: #444;
+    font-weight: bold;
+    padding: 5px;
 }
+
+.hidden >div{
+    padding: 1%;
+    margin: 1%;
+}
+
 
